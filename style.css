@@ -406,8 +406,17 @@ a {
   padding-top: 5%;
 }
 .ffda {
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
+  margin-top: 10%;
+  border-radius: 20%;
+  box-shadow: 1px 1px 30px black;
+}
+.ffds {
+  width: 70%;
+  height: 70%;
+  margin-top: 10%;
+  margin-left: 10%;
   border-radius: 20%;
   box-shadow: 1px 1px 30px black;
 }
