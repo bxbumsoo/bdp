@@ -405,6 +405,12 @@ a {
   padding-left: 5%;
   padding-top: 5%;
 }
+.ffda {
+  width: 80%;
+  height: 80%;
+  border-radius: 20%;
+  box-shadow: 1px 1px 30px black;
+}
 /* Colors */
 
 .background-color-ED5565 {
@@ -772,11 +778,4 @@ a {
 .no-js .bb-item {
   display: block;
   position: relative;
-}
-.ffda {
-  width: 80%;
-  height: 80%;
-  margin: 10%;
-  border-radius: 20%;
-  box-shadow: 1px 1px 30px black;
 }
