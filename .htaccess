@@ -8,5 +8,5 @@ Deny from All
 
 AuthType Basic
 AuthName "restricted area"
-AuthUserFile /absolute_full_path/.htpasswd
+C:/Users/bxbum/Desktop/Bums/programmimg/practicenote/present/.htpasswd
 require valid-user
