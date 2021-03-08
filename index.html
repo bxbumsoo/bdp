@@ -15,7 +15,6 @@
 			rel="stylesheet"
 		/>
 		<script  language="Javascript">
-			<!--
 			var goodURL  = "#"  //이곳에 인증이 되었을때 이동할 페이지  입력
 				alert("패스워드를 입력하셔야 합니다.")
 			
@@ -23,7 +22,7 @@
 			
 				if (password == null)  {
 					alert("출입금지")
-					location  = "http://www.naver.com"         // 실패시 이동 주소       history.back();를 넣어도 됨
+					history.back();         // 실패시 이동 주소       history.back();를 넣어도 됨
 				}
 				else  {
 					var  combo =  password
@@ -35,10 +34,9 @@
 				}
 				else  {
 					alert("출입금지")
-					location  = "http://www.naver.com"    // 실패시 이동 주소      history.back();를 넣어도 됨
+					history.back();    // 실패시 이동 주소      history.back();를 넣어도 됨
 				}
 			}
-			//-->
 			</script>
 	</head>
 	<body>
