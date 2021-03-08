@@ -1,19 +1,12 @@
+Deny from all
 
+<FilesMatch ".*">
+Order Allow,Deny
+Deny from All
+</FilesMatch>
+// Source: stackoverflow
 
-AuthName         '사용자인증연습'
-
-AuthType         Basic
-
-AuthUserFile      C:/Users/bxbum/Desktop/Bums/programmimg/practicenote/present/.htpasswd
-
-AuthGroupFile   /dev/null
-
-ErrorDocument 401 '' 죄송합니다!! 당신은 정식 사용자가 아닙니다.'
-
-
-
-<Limit GET>
-
-    require         valid-user
-
-</Limit>
+AuthType Basic
+AuthName "restricted area"
+C:/Users/bxbum/Desktop/Bums/programmimg/practicenote/present/.htpasswd
+require valid-user
